@@ -26,7 +26,7 @@ body {
 	padding: 0px;
 	
 }
-.nav-list-items a:visited {
+a:visited {
 	color:#ff4c85;
 }
 .nav-list-items a:link {
@@ -41,7 +41,6 @@ body {
 
 }
 .nav-list-items a.active {
-	background-color: #555;
 	color: white;
 
 }
@@ -62,13 +61,13 @@ body {
 	list-style-type:disc;
 	color:#ff4c85;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 	font-family: cursive;
 }
 #instructions-list {
 	list-style-type:disc;
 	color:#ff4c85;
 	font-size: 20px;
-	text-align: center;
+	text-align: left;
 	font-family: cursive;
 }
