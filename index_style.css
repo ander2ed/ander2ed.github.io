@@ -45,6 +45,7 @@ body {
 	padding: 0;
 	font-size: 20px;
 	overflow-x: auto;
+	height: 50px;
 }
 .nav-list-items {
 	display: inline;
@@ -53,7 +54,7 @@ body {
 	padding: 5px;
 	border-left: 1px solid #000;
 	border-left-color: #ff4c85;
-	height: 50px;
+	
 }
 .nav-list-items a {
 	display: inline-block;
