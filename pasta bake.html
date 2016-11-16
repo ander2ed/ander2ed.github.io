@@ -74,43 +74,55 @@
 		list-style-type:disc;
 		color:#ff4c85;
 		font-size: 20px;
+		text-align: center;
+		font-family: cursive;
 	}
+	.nav-list-items {
+		display: inline;
+		text-align: center;
+		margin: 0px;
+		padding: 5px;
+		border-left: 1px solid #000;
+		border-left-color: #ff4c85;
+	}
+	.nav-list-items a {
+		display: inline-block;
+		padding: 0px;
+		
+	}
+	.nav-list-items:first-child {
+		border-left: none;
+	}
+	.nav-list-items a:hover {
+		background-color: #555;
+		color: white;
 	
+	}
+	.nav-list-items a.active {
+		background-color: #555;
+		color: white;
+	
+	}
 	</style>
 
 	<body>
 		<h1 id="main_heading">
 			<a href ="./index.html">
-				Pasta Bake
+				Casey's Recipes
 			</a>
 		</h1>
-		<div id="recipe-table-outer">
-			<table id="recipes_table">
-				<tbody>
-					<td>
-						<a href="./goulash.html">
-							<div>Goulash</div>
-						</a>
-					</td>
-					<td>
-						<a href="./pasta bake.html">
-							<div>Pasta Bake</div>
-					</td>
-					<td>
-						<a href="./lasagna.html">
-							<div>Lasagna</div>
-					</td>
-					<td>
-						<a href="./southwest salad.html">
-							<div>Southwest Salad</div>
-					</td>
-					<td>
-						<a href="./beef stroganoff">
-							<div>Beef Stroganoff</div>
-					</td>
-				</tbody>
-			</table>
-		</div>
+
+		<ul class="nav-list">
+			<li class="nav-list-items"><a href="./goulash.html">Goulash</a></li>
+			<li class="nav-list-items"><a href="./pasta bake.html">Pasta Bake</a></li>
+			<li class="nav-list-items"><a href="./lasagna.html">Lasagna</a></li>
+			<li class="nav-list-items"><a href="./beef stroganoff.html">Beef Stroganoff</a></li>
+			<li class="nav-list-items"><a href="./beef stroganoff.html">Southwest Salad</a></li>
+			<li class="nav-list-items"><a href="./beef stroganoff.html">Southwest Salad</a></li>
+
+
+
+		</ul>
 
 		<div id="recipe-results">
 			<h2 id="ingredients">Ingredients</h2>
