@@ -13,12 +13,15 @@ body {
 
 
 .nav-list {
+	white-space: nowrap;
 	list-style: none;
 	margin: 0 0 0 0;
 	text-align: center;
 	font-family: cursive;
 	padding: 0;
 	font-size: 20px;
+	overflow-x: auto;
+	height: 50px;
 }
 .nav-list-items {
 	display: inline;
