@@ -41,6 +41,7 @@ body {
 	margin: 0 0 0 0;
 	text-align: center;
 	font-family: cursive;
+	padding: 0;
 }
 .nav-list-items {
 	display: inline;
