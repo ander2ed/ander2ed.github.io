@@ -67,6 +67,11 @@ a:link {
 	text-decoration:underline;
 	font-family:cursive;
 }
+.subdish {
+	color:#ff4c85;
+	text-decoration:underline;
+	font-family:cursive;
+}
 
 #ingredient-list {
 	list-style-type:disc;
@@ -82,7 +87,13 @@ a:link {
 	text-align: left;
 	font-family: cursive;
 }
-
+.subdish-ingredient-list  {
+	list-style-type:disc;
+	color:#ff4c85;
+	font-size: 20px;
+	text-align: left;
+	font-family: cursive;
+}
 
 #tips-and-tricks-list {
 	list-style-type:disc;
