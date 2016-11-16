@@ -1,0 +1,74 @@
+/* Style sheet for recipe pages */
+
+body {
+	background-color: #65eff2;
+}
+#main_heading {
+	color: #ff4c85;
+	text-align: center;
+	font-family: cursive;
+	text-decoration:underline;
+	font-size: 40px;
+}
+
+
+
+.nav-list-items {
+	display: inline;
+	text-align: center;
+	margin: 0px;
+	padding: 5px;
+	border-left: 1px solid #000;
+	border-left-color: #ff4c85;
+}
+.nav-list-items a {
+	display: inline-block;
+	padding: 0px;
+	
+}
+.nav-list-items a:visited {
+	color:#ff4c85;
+}
+.nav-list-items a:link {
+	color:#ff4c85;
+}
+.nav-list-items:first-child {
+	border-left: none;
+}
+.nav-list-items a:hover {
+	background-color: #555;
+	color: white;
+
+}
+.nav-list-items a.active {
+	background-color: #555;
+	color: white;
+
+}
+
+
+#ingredients {
+	color:#ff4c85;
+	text-decoration:underline;
+	font-family:cursive;
+}
+#cooking-instructions {
+	color:#ff4c85;
+	text-decoration:underline;
+	font-family:cursive;
+}
+
+#ingredient-list {
+	list-style-type:disc;
+	color:#ff4c85;
+	font-size: 20px;
+	text-align: center;
+	font-family: cursive;
+}
+#instructions-list {
+	list-style-type:disc;
+	color:#ff4c85;
+	font-size: 20px;
+	text-align: center;
+	font-family: cursive;
+}
