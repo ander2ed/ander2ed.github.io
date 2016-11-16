@@ -46,7 +46,7 @@ a:link {
 	color: white;
 
 }
-.nav-list-items a.active {
+.nav-list-items a:active {
 	color: white;
 
 }
