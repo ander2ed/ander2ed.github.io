@@ -9,7 +9,6 @@
 	body {
 		background-color: #65eff2;
 	}
-
 	#main_heading {
 		color: #ff4c85;
 		text-align: center;
@@ -17,12 +16,11 @@
 		text-decoration:underline;
 		font-size: 40px;
 	}
-
 	/*
 	#recipe-table-outer {
 		overflow: scroll;
 	}
-	*/
+	
 	#recipes_table {
 		 width:100%; 
 		 table-layout:fixed;
@@ -43,14 +41,46 @@
 	#recipes_table td:first-child {
 		border-left: none;
 	}
-	
+	*/
 	a:link {
 		color:#ff4c85;
 	}
 	a:visited {
 		color:#ff4c85;
 	}
+
+	.nav-list {
+		list-style: none;
+		margin: 0 0 0 0;
+		text-align: center;
+		font-family: cursive;
+	}
+	.nav-list-items {
+		display: inline;
+		text-align: center;
+		margin: 0px;
+		padding: 5px;
+		border-left: 1px solid #000;
+		border-left-color: #ff4c85;
+	}
+	.nav-list-items a {
+		display: inline-block;
+		padding: 0px;
+		
+	}
+	.nav-list-items:first-child {
+		border-left: none;
+	}
+	.nav-list-items a:hover {
+		background-color: #555;
+		color: white;
 	
+	}
+	.nav-list-items a.active {
+		background-color: #555;
+		color: white;
+	
+	}
 	</style>
 
 	<body>
@@ -59,32 +89,17 @@
 				Casey's Recipes
 			</a>
 		</h1>
-		<div id="recipe-table-outer">
-			<table id="recipes_table">
-				<tbody>
-					<td>
-						<a href="./goulash.html">
-							<div>Goulash</div>
-						</a>
-					</td>
-					<td>
-						<a href="./pasta bake.html">
-							<div>Pasta Bake</div>
-					</td>
-					<td>
-						<a href="./lasagna.html">
-							<div>Lasagna</div>
-					</td>
-					<td>
-						<a href="./southwest salad.html">
-							<div>Southwest Salad</div>
-					</td>
-					<td>
-						<a href="./beef stroganoff">
-							<div>Beef Stroganoff</div>
-					</td>
-				</tbody>
-			</table>
-		</div>
+
+		<ul class="nav-list">
+			<li class="nav-list-items"><a href="./goulash.html">Goulash</a></li>
+			<li class="nav-list-items"><a href="./pasta bake.html">Pasta Bake</a></li>
+			<li class="nav-list-items"><a href="./lasagna.html">Lasagna</a></li>
+			<li class="nav-list-items"><a href="./beef stroganoff.html">Beef Stroganoff</a></li>
+			<li class="nav-list-items"><a href="./beef stroganoff.html">Southwest Salad</a></li>
+			<li class="nav-list-items"><a href="./beef stroganoff.html">Southwest Salad</a></li>
+
+
+
+		</ul>
 	</body>
 </html>
