@@ -29,7 +29,7 @@ body {
 a:visited {
 	color:#ff4c85;
 }
-.nav-list-items a:link {
+a:link {
 	color:#ff4c85;
 }
 .nav-list-items:first-child {
