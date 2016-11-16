@@ -36,13 +36,6 @@ body {
 	border-left: none;
 }
 */
-a:link {
-	color:#ff4c85;
-}
-a:visited {
-	color:#ff4c85;
-}
-
 .nav-list {
 	list-style: none;
 	margin: 0 0 0 0;
@@ -61,6 +54,12 @@ a:visited {
 	display: inline-block;
 	padding: 0px;
 	
+}
+.nav-list-items a:link {
+	color:#ff4c85;
+}
+.nav-list-items a:visited {
+	color:#ff4c85;
 }
 .nav-list-items:first-child {
 	border-left: none;
