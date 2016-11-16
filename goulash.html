@@ -2,111 +2,12 @@
 <html>
 
 	<head>
+		<link rel="stylesheet" type="text/css" href="recipe_style.css">
 		<title>Casey's Recipes</title>
 	</head>
 
-	<style>
-	body {
-		background-color: #65eff2;
-	}
+	
 
-	#main_heading {
-		color: #ff4c85;
-		text-align: center;
-		font-family: cursive;
-		text-decoration:underline;
-		font-size: 40px;
-	}
-
-	#recipes {
-		width:120px;
-		height:50px;
-	}
-	/*
-	#recipe-table-outer {
-		overflow: scroll;
-	}
-	*/
-	#recipes_table {
-		 width:100%; 
-		 table-layout:fixed;
-	}
-	#recipes_table tr {
-		font-family: cursive;
-		color: #ff4c85;
-		text-align: center;
-		
-		margin:0;
-	}
-	#recipes_table td {
-		min-width: 200px;
-		border-left: 1px solid #000;
-		border-left-color: #ff4c85;
-		
-	}
-	#recipes_table td:first-child {
-		border-left: none;
-	}
-	
-	a:link {
-		color:#ff4c85;
-	}
-	a:visited {
-		color:#ff4c85;
-	}
-	
-	#ingredients {
-		color:#ff4c85;
-		text-decoration:underline;
-		font-family:cursive;
-	}
-	#cooking-instructions {
-		color:#ff4c85;
-		text-decoration:underline;
-		font-family:cursive;
-	}
-	
-	#ingredient-list {
-		list-style-type:disc;
-		color:#ff4c85;
-		font-size: 20px;
-		text-align: center;
-		font-family: cursive;
-	}
-	#instructions-list {
-		list-style-type:disc;
-		color:#ff4c85;
-		font-size: 20px;
-		text-align: center;
-		font-family: cursive;
-	}
-	.nav-list-items {
-		display: inline;
-		text-align: center;
-		margin: 0px;
-		padding: 5px;
-		border-left: 1px solid #000;
-		border-left-color: #ff4c85;
-	}
-	.nav-list-items a {
-		display: inline-block;
-		padding: 0px;
-		
-	}
-	.nav-list-items:first-child {
-		border-left: none;
-	}
-	.nav-list-items a:hover {
-		background-color: #555;
-		color: white;
-	
-	}
-	.nav-list-items a.active {
-		background-color: #555;
-		color: white;
-	
-	}
-	</style>
 
 	<body>
 		<h1 id="main_heading">
